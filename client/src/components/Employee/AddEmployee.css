@@ -1,0 +1,45 @@
+.add-employee-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .add-employee-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .submit-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color: #45a049;
+  }
+  
+  @media (max-width: 600px) {
+    .add-employee-container {
+      max-width: 100%;
+      padding: 10px;
+    }
+  }
+  

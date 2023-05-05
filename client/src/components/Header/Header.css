@@ -1,0 +1,74 @@
+/* Add this CSS in your component's CSS file or in a separate CSS file */
+
+/* Header container */
+.container-fluid {
+    padding: 0 20px;
+  }
+  
+  /* Navbar items */
+  .navbar-nav .nav-item {
+    margin-right: 10px;
+  }
+  .headnav{
+    background-color: rgb(90, 117, 141);
+  }
+  
+  /* Header link styles */
+  .item {
+    text-decoration: none;
+    color: #000;
+    transition: color 0.3s ease;
+    margin-left: 10px;
+  }
+  
+  .item:hover {
+    color: #888;
+  }
+  
+  /* Toggle button styles */
+  .navbar-toggler {
+    border: none;
+    background: rgb(77, 90, 239);
+  }
+  
+  .navbar-toggler:focus {
+    outline: none;
+  }
+  
+  /* Logout button styles */
+  .logout-button {
+    background: none;
+    border: none;
+    color: #000;
+    transition: color 0.3s ease;
+  }
+  
+  .logout-button:hover {
+    color: #888;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    /* Center align the logo in the mobile view */
+    .navbar-brand {
+      display: flex;
+      justify-content: center;
+    }
+  
+    /* Center align the navigation items in the mobile view */
+    .navbar-collapse {
+      justify-content: center;
+    }
+  
+    /* Add spacing between navbar items in the mobile view */
+    .navbar-nav .nav-item {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+    /* Add margin to the logout button in the mobile view */
+    .logout-wrapper {
+      margin-top: 10px;
+    }
+  }
+  

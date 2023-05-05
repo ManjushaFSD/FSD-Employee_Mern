@@ -1,0 +1,2 @@
+.add-employee-container{margin:0 auto;max-width:400px;padding:20px}.add-employee-form{display:flex;flex-direction:column}.form-group{margin-bottom:10px}label{font-weight:700}input[type=number],input[type=text]{border:1px solid #ccc;border-radius:4px;padding:5px}.submit-btn{background-color:#4caf50;border:none;color:#fff;cursor:pointer;padding:10px 20px}.submit-btn:hover{background-color:#45a049}@media (max-width:600px){.add-employee-container{max-width:100%;padding:10px}}
+/*# sourceMappingURL=185.e24951c5.chunk.css.map*/
